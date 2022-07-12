@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F02415;
+
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    background-image: linear-gradient(to left, #ED280E, #ED190E, #ED190E, #D60248  );
+}
+h2{
+    text-align: center;
+    background-image: linear-gradient(to left, #4B27D9, #3843F0, #2762D9, #2DA5F8);
+    color: white;
+}
+a{
+    color:#09ec09;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: #09ec09;
+    
+}
+a::after{
+    content: "↪" ;
+}
